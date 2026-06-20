@@ -19,7 +19,7 @@ permissions:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: auth-service
+  ECR_REPOSITORY: pharma-dev-auth-service
   GITOPS_REPO: ${{ vars.GITOPS_REPO }}
 
 jobs:
